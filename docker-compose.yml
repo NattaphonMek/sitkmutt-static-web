@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/nattaphonmek/static-web:dev
+    ports:
+      - "8080:80"
